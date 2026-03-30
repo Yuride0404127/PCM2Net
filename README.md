@@ -1,8 +1,8 @@
-# PGM2Net
+# PCM2Net
 
 ## Overview
 
-PGM2Net (Physics-Guided Manifold Mamba Network) is a state-of-the-art deep learning model designed for Optics-Guided thermal UAV image super-resolution. This model leverages physics-guided principles and manifold learning techniques combined with the powerful Mamba architecture to enhance the resolution of thermal UAV images.
+PCM2Net (Physics-Constrained Manifold Mamba Network) is a state-of-the-art deep learning model designed for Optics-Guided thermal UAV image super-resolution. This model leverages physics-guided principles and manifold learning techniques combined with the powerful Mamba architecture to enhance the resolution of thermal UAV images.
 
 ## Table of Contents
 
@@ -33,8 +33,8 @@ PGM2Net (Physics-Guided Manifold Mamba Network) is a state-of-the-art deep learn
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Yuride0404127/PGM2Net.git
-cd PGM2Net
+git clone https://github.com/Yuride0404127/PCM2Net.git
+cd PCM2Net
 ```
 
 1. Install dependencies:
@@ -47,11 +47,11 @@ pip install -r requirements.txt
 
 ### Model Structure
 
-![PGM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PGM2Net.png)
+![PGM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PCM2Net.png)
 
 The PGM2Net architecture integrates:
 
-- Physics-Informed Diffusion Mamba (PID-Mamba)
+- **Physics-Informed Diffusion Mamba (PID-Mamba)**
 - **Sparse Manifold Reconstruction (SMR)**
 - **Consistency-Gated Refinement (CGR)**
 
@@ -95,10 +95,10 @@ The visualization results of the model's predictions can be viewed at the follow
 ### Inference
 
 ```python
-from pgm2net import PGM2Net
+from pcm2net import PGM2Net
 
 # Load the model
-model = PGM2Net()
+model = PCM2Net()
 model.load_state_dict(torch.load('path/to/checkpoint.pth'))
 model.eval()
 
