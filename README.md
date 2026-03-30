@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Model Structure
 
-![PCM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PCM2Net.png)
+![PCM2Net](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/PCM2Net.png)
 
 The PCM2Net architecture integrates:
 
