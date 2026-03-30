@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Model Structure
 
-!\[PGM2Net]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PGM2Net.png> null)
+![PGM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PGM2Net.png)
 
 The PGM2Net architecture integrates:
 
@@ -57,21 +57,21 @@ The PGM2Net architecture integrates:
 
 ### Training Algorithm
 
-!\[Algorithm1]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Algorithm1.png> null)
+![Algorithm1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Algorithm1.png)
 
 ## Results
 
 ### Quantitative Results
 
-!\[Table1]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Table1.png> null)
+![Table1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Table1.png)
 
-!\[Table2]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/table2.png> null)
+![Table2](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/table2.png)
 
 ### Qualitative Results
 
-!\[Fig1]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Fig1.png> null)
+![Fig1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Fig1.png)
 
-!\[Fig2]\(<https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/fig2.png> null)
+![Fig2](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/fig2.png)
 
 ## Predicted Maps
 
