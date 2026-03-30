@@ -47,9 +47,9 @@ pip install -r requirements.txt
 
 ### Model Structure
 
-![PGM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PCM2Net.png)
+![PCM2Net](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/PCM2Net.png)
 
-The PGM2Net architecture integrates:
+The PCM2Net architecture integrates:
 
 - **Physics-Informed Diffusion Mamba (PID-Mamba)**
 - **Sparse Manifold Reconstruction (SMR)**
@@ -57,21 +57,21 @@ The PGM2Net architecture integrates:
 
 ### Training Algorithm
 
-![Algorithm1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Algorithm1.png)
+![Algorithm1](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/Algorithm1.png)
 
 ## Results
 
 ### Quantitative Results
 
-![Table1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Table1.png)
+![Table1](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/Table1.png)
 
-![Table2](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/table2.png)
+![Table2](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/table2.png)
 
 ### Qualitative Results
 
-![Fig1](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/Fig1.png)
+![Fig1](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/Fig1.png)
 
-![Fig2](https://github.com/Yuride0404127/PGM2Net/blob/main/Picture/fig2.png)
+![Fig2](https://github.com/Yuride0404127/PCM2Net/blob/main/Picture/fig2.png)
 
 ## Predicted Maps
 
@@ -81,8 +81,8 @@ The visualization results of the model's predictions can be viewed at the follow
 
 ### Baidu Netdisk
 
-- Link: \[BaiduNet disk] ( <https://pan.baidu.com/s/1acQ3UusQfuPWxDoEyFp5WQ?pwd=268s>)
-- Password: [268s](https://pan.baidu.com/s/1acQ3UusQfuPWxDoEyFp5WQ?pwd=268s)
+- Link: \[BaiduNet disk] ( <https://pan.baidu.com/s/1e8RMcOCyfvxfXZNIbQQ7JA?pwd=wdma>)
+- Password: wdma
 - Includes: Model checkpoints and predicted maps
 
 ### Google Drive
