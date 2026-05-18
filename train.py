@@ -14,7 +14,7 @@ from datetime import datetime
 # 导入你的模块
 from data_loader import create_dataloaders
 from metrics import tensor2img, calc_psnr, calc_ssim
-from models.Ablation_PGM2Net_v5_PID import PGM2Net
+from models.Ablation_PCM2Net_v5_PID import PCM2Net
 from models.PMG2NetLoss import MultiScaleLoss
 
 
@@ -155,11 +155,11 @@ def main(config_path):
 
     # 5. 模型初始化
     logger.info("Initializing model...")
-    # model = PGM2Net(
+    # model = PCM2Net(
     #     dim=config['model']['base_dim'],
     #     scale_factor=config['data']['scale_ratio']
     # ).to(device)
-    model = PGM2Net(
+    model = PCM2Net(
         dim=config['model']['base_dim'],
         scale_factor=config['data']['scale_ratio'],
         pid_use_edge=True,

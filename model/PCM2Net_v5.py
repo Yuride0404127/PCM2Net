@@ -402,7 +402,7 @@ class RGBEmbeding(nn.Module):
         scale = self.ca(x)
         return x * scale
 
-class PGM2Net(nn.Module):
+class PCM2Net(nn.Module):
     def __init__(self, thermal_c=3, rgb_c=3, dim=96, scale_factor=4): 
         super().__init__()
         
@@ -464,7 +464,7 @@ if __name__ == '__main__':
     # 【参数控制】 base_dim 调整为 48
     # 维度变化: 48 -> 96 -> 192 -> 384
     try:
-        model = PGM2Net(thermal_c=3, rgb_c=3, dim=256, scale_factor=SCALE).to(device)
+        model = PCM2Net(thermal_c=3, rgb_c=3, dim=256, scale_factor=SCALE).to(device)
         print("Model built successfully.")
     except Exception as e:
         print(f"Model build failed: {e}")

@@ -11,7 +11,7 @@ import lpips  # LPIPS dependency
 
 from data_loader import create_dataloaders
 from metrics import tensor2img, calc_psnr, calc_ssim, calc_lpips
-from models.Ablation_PGM2Net_v5_PID import PGM2Net
+from models.Ablation_PCM2Net_v5_PID import PCM2Net
 
 
 def save_result_image(save_path, sr_img, gt_img=None):
@@ -45,11 +45,11 @@ def test(config_path, model_path):
 
     # 3. Model Load
     print(f"Loading model from {model_path}...")
-    # model = PGM2Net(
+    # model = PCM2Net(
     #     dim=config['model']['base_dim'],
     #     scale_factor=config['data']['scale_ratio']
     # ).to(device)
-    model = PGM2Net(
+    model = PCM2Net(
         dim=config['model']['base_dim'],
         scale_factor=config['data']['scale_ratio'],
         pid_use_edge=True,
